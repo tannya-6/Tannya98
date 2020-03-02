@@ -1,0 +1,71 @@
+<html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="#" name="stud" id="stud" onsubmit="validate();">
+    
+    <table>
+	<tr>
+		<td colspan="2">
+
+		<font size=5><b>User Registration Form</b></font>
+		</td>
+	</tr>
+
+	<tr>
+		<td>UserId</td>
+		<td><input type="text" name="userid" id="userid"></td>
+	</tr>
+
+	<tr>
+		<td>Password</td>
+		<td><input type="password" name="psw" id="password"></td>
+	</tr>
+	<tr>
+		<td>Name</td>
+		<td><input type="text" name="name" id="name"></td>
+	</tr>
+	<tr>
+		<td>Address</td>
+		<td><input type="text" name="address" id="paddress"></td>
+	</tr>
+	<tr>
+		<td>Country</td>
+		<td><select name="Country">
+			 <option value="-1" selected>select..</option>
+			<option value="India">India</option>
+			<option value="Australia">Australia</option>
+			<option value="USA">USA</option>
+			<option value="Italy">Italy</option>
+		</select></td>
+	</tr>
+	<tr>
+		<td>Gender</td>
+		<td><input type="radio" name="gender" value="male">Male
+		<input type="radio" name="gender" value="Female">Female</td>
+	</tr>
+	<tr>
+		<td>PinCode</td>
+		<td><input type="text" name="pincode" id="pincode" size="30"></td>
+	</tr>
+	<tr>
+		<td>Languages Known</td>
+		<td><input type="checkbox" name="lang" value="hindi">Hindi
+		<input type="checkbox" name="lang" value="english">English
+		<input type="checkbox" name="lang" value="french">French
+		<input type="checkbox" name="lang" value="german">German
+		<input type="checkbox" name="lang" value="chinese">Chinese
+		<input type="checkbox" name="lang" value="Japanese">Japanese
+	</td>
+	</tr>
+	<tr>
+		<td>Other Details:</td><td><textarea id="other details" rows="5"> </textarea></td>
+	</tr>
+	<tr>
+		<td><input type="submit" value="Submit Form" /></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
